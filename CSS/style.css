@@ -1,0 +1,38 @@
+/* INDEX HTML */
+
+#centralizar {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+#centralizarTexto {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.buttonNext {
+    text-decoration: none;
+   position: absolute;
+   right: 20px;
+   bottom: 1%;
+}
+
+.noLine {
+    text-decoration: none;
+    color: black;
+}
+
+/* CLIQUES HTML */
+
+.centralizar2 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 40vh;
+}
+
+#centerAll {
+    display: flex;
+    justify-content: center;
+}
+

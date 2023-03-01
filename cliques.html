@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Contador de cliques</title>
+</head>
+<body>
+    <main>
+        <section id="centerAll">
+
+            <section class="centralizar2">
+                <button onclick="clique()">
+                    <strong>
+                        INCREMENTAR
+                    </strong>
+                </button>
+            </section>
+    
+            <section class="centralizar2">
+                <button onclick="zerar()">
+                    <strong>
+                        ZERAR
+                    </strong>
+                </button>
+            </section>
+
+        </section>
+        <p id="pgrafoDClik" style="text-align: center; font-size: larger;">
+                <strong>
+                    O contador está com <span id="display">0</span> cliques.
+                </strong>
+        </p>
+    </main>
+    
+
+    <script src="./JS/index.js"></script>
+</body>
+</html>
